@@ -1,0 +1,37 @@
+html {
+	box-sizing: border-box;
+  background-color: #EFEFE9;
+  font-family: "Dosis";
+}
+
+*, *::before, *::after {
+	box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  color: #532807;
+}
+
+.info-boxes {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+.info-boxes li {
+  color: #fff;
+  background-color: #9A816D;
+}
+
+.info-boxes a {
+  padding: 1em;
+  display: block;
+  border: #725640;
+}
+
+.info-boxes a:hover {
+  color: #fff;
+  background-color: #7A5537;
+}
